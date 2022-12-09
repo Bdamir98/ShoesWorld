@@ -34,7 +34,7 @@ class AddidasShoesDetails extends StatelessWidget {
                           ),
                         ),
                         CircleAvatar(
-                          child: FlutterLogo(),
+                          child: Image.asset('assets/Ellipse 1.png'),
                           radius: 40,
                           backgroundColor: buttonColor,
                         ),

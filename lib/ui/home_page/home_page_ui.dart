@@ -10,8 +10,6 @@ class HomePageUI extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
-
     return Scaffold(
       backgroundColor: backColor,
       body: SafeArea(
@@ -23,12 +21,15 @@ class HomePageUI extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Icon(Icons.menu),
+                  Icon(
+                    Icons.menu,
+                    size: 30,
+                  ),
                   //Text('${data["name"]}'),
                   CircleAvatar(
-                    radius: 20,
+                    radius: 30,
                     backgroundColor: Colors.teal,
-                    child: FlutterLogo(),
+                    child: Image.asset('assets/Ellipse 1.png'),
                   ),
                 ],
               ),
